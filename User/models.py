@@ -54,7 +54,7 @@ class User(AbstractBaseUser, PermissionsMixin):
     
     def user_orders(self):
         from Order.models import Order  # import interno (lazy import)
-        return Order.objects.filter(id_user=self)
+        return Order.objects.filter(user=self)
 
     
     class Meta:

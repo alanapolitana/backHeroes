@@ -24,4 +24,4 @@ class UserOrdersView(ListAPIView):
 
     def get_queryset(self):
         user_id = self.request.user.id
-        return Order.objects.filter(id_user=user_id)    
+        return Order.objects.filter(user=user_id)    
