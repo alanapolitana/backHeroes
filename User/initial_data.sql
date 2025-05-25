@@ -174,14 +174,14 @@ INSERT INTO "user" (
     is_active, is_staff, is_superuser, role_id)
 VALUES
 
-('emirobles@gmail.com', 'emirobles', 'Emilce', 'Robles', 'pbkdf2_sha256$...=', '101 Oak St', '123456789', 'bob_johnson.jpg', '2024-05-23 16:00:04', TRUE, TRUE, FALSE, 2),
-('velezpaula.a@gmail.com', 'velezpaula', 'Paula', 'Velez', 'pbkdf2_sha256$...=', '456 Main St', '123456789', 'joan_doe.jpg', '2024-05-23 16:00:04', TRUE, TRUE, FALSE, 2),
-('marcovirinni@gmail.com', 'marcovirinni', 'Marco', 'Virinni', 'pbkdf2_sha256$...=', '123 Main St', '123456789', 'https://res.cloudinary.com/dbz5bknul/image/upload/v1710547090/marco_virinni_oov5tk.jpg', '2024-05-23 16:00:04', TRUE, TRUE, FALSE, 2),
-('noahcassutti@gmail.com', 'noahcassutti', 'Noah Nicanor', 'Cassutti', 'pbkdf2_sha256$...=', '123 Main St', '123456789', 'eva_williams.jpg', '2024-05-23 16:00:04', TRUE, TRUE, FALSE, 2),
-('erick_lopez@gmail.com', 'ericklopez', 'Erick', 'Lopez', 'pbkdf2_sha256$...=', '123 Main St', '123456789', 'eva_williams.jpg', '2024-05-23 16:00:04', TRUE, TRUE, FALSE, 2),
-('valentinolorenti@gmail.com', 'valentinol', 'Valentino', 'Lorenti', 'pbkdf2_sha256$...=', '123 Main St', '123456789', 'eva_williams.jpg', '2024-05-23 16:00:04', TRUE, TRUE, FALSE, 2),
+('emirobles@gmail.com', 'emirobles', 'Emilce', 'Robles', 'pbkdf2_sha256$600000$5AckuCNmyCM6lgLATnfxT8$nljFWwLfJnCPMsUYzrM2bmGsQdUNIraa18TdPPuJnmU=', '101 Oak St', '123456789', 'bob_johnson.jpg', '2024-05-23 16:00:04', TRUE, TRUE, FALSE, 2),
+('velezpaula.a@gmail.com', 'velezpaula', 'Paula', 'Velez', 'pbkdf2_sha256$600000$5AckuCNmyCM6lgLATnfxT8$nljFWwLfJnCPMsUYzrM2bmGsQdUNIraa18TdPPuJnmU=', '456 Main St', '123456789', 'joan_doe.jpg', '2024-05-23 16:00:04', TRUE, TRUE, FALSE, 2),
+('marcovirinni@gmail.com', 'marcovirinni', 'Marco', 'Virinni', 'pbkdf2_sha256$600000$5AckuCNmyCM6lgLATnfxT8$nljFWwLfJnCPMsUYzrM2bmGsQdUNIraa18TdPPuJnmU=', '123 Main St', '123456789', 'https://res.cloudinary.com/dbz5bknul/image/upload/v1710547090/marco_virinni_oov5tk.jpg', '2024-05-23 16:00:04', TRUE, TRUE, FALSE, 2),
+('noahcassutti@gmail.com', 'noahcassutti', 'Noah Nicanor', 'Cassutti', 'pbkdf2_sha256$600000$5AckuCNmyCM6lgLATnfxT8$nljFWwLfJnCPMsUYzrM2bmGsQdUNIraa18TdPPuJnmU=', '123 Main St', '123456789', 'eva_williams.jpg', '2024-05-23 16:00:04', TRUE, TRUE, FALSE, 2),
+('erick_lopez@gmail.com', 'ericklopez', 'Erick', 'Lopez', 'pbkdf2_sha256$600000$5AckuCNmyCM6lgLATnfxT8$nljFWwLfJnCPMsUYzrM2bmGsQdUNIraa18TdPPuJnmU=', '123 Main St', '123456789', 'eva_williams.jpg', '2024-05-23 16:00:04', TRUE, TRUE, FALSE, 2),
+('valentinolorenti@gmail.com', 'valentinol', 'Valentino', 'Lorenti', 'pbkdf2_sha256$600000$5AckuCNmyCM6lgLATnfxT8$nljFWwLfJnCPMsUYzrM2bmGsQdUNIraa18TdPPuJnmU=', '123 Main St', '123456789', 'eva_williams.jpg', '2024-05-23 16:00:04', TRUE, TRUE, FALSE, 2),
 
-('developers-superheroes@gmail.com', 'devteam', 'Develop', 'Team', 'pbkdf2_sha256$...=', 'localhost', '123456789', 'michael_brown.jpg', '2024-05-23 16:00:04', TRUE, TRUE, TRUE, 3);
+('developers-superheroes@gmail.com', 'devteam', 'Develop', 'Team', 'pbkdf2_sha256$600000$TM6SUusGx9g4tG3ixjFULr$2D2mz/i5G1/1mEx4bhuIm6NKwPqmg3ZafjD0KD9SLFA=', 'localhost', '123456789', 'michael_brown.jpg', '2024-05-23 16:00:04', TRUE, TRUE, TRUE, 3);
 
 
 INSERT INTO orders ( state, order_date, payment_method, shipping_method, payment_status, total_amount,user_id)
