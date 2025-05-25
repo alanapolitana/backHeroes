@@ -78,6 +78,7 @@ MIDDLEWARE = [
 ]
 CORS_ORIGIN_WHITELIST = ['http://localhost:4200']
 CORS_ALLOWED_ORIGINS = [
+    "https://planetsuperheroes-git-develop-marco-virinnis-projects.vercel.app",
     "http://localhost:4200", 
     "https://planetsuperheroes.vercel.app"]
 CORS_ALLOW_CREDENTIALS = True
@@ -100,16 +101,10 @@ TEMPLATES = [
 ]
 
 # Database
-""" DATABASES = {
-    'default': dj_database_url.config(default=os.getenv('DATABASE_URL')) 
-} """
 DATABASES = {
-    'default': dj_database_url.config(
-        default=os.getenv("DATABASE_URL"),
-        conn_max_age=600,
-        ssl_require=True
-    )
+    'default': dj_database_url.config(default=os.getenv('DATABASE_URL')) 
 }
+
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
